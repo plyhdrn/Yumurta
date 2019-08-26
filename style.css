@@ -1,0 +1,127 @@
+.container{
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+
+.arkaplan{
+  background: black;
+  position: fixed;
+  height: 100000%;
+  width: 100000%;
+  top: 0
+}
+
+.icerik{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background: white;
+  background-size: 50px;
+  background-repeat: round;
+}
+
+.duba{
+  top: 0;
+  right: 0;
+  position: absolute;
+  height: 70%;
+  width: 100%;
+  display: flex;
+align-items: center;
+  justify-content: center;
+}
+
+
+.fotoKapsayici{
+  bottom: 0;
+  position: absolute;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  pointer-events: none;
+  height: 23vw;
+  border-radius: 50%;
+  background-color: #eead6d;
+  background-size:     cover;                      /* <------ */
+  background-repeat:   no-repeat;
+  background-position: center center;              /* optional, center the image */
+  transition: 0.01s all;
+  min-width: 15%
+
+}
+.goz1, .goz2{
+  background-color: white;
+  border-radius: 100%;
+  height: 1vh;
+  width: 1vh;
+}
+
+.gozler{
+  display: flex;
+justify-content: center;
+height: 100%;
+align-items: center;
+}
+
+.agiz{
+  background-color: white;
+  border-radius:5px;
+  height: 0.6vh;
+  margin-top: 5vh;
+  width: 1.8vh;
+}
+
+
+@keyframes shake {
+  0%{
+    height: 21vw;
+    width: 13vw;
+
+  }
+  50%{
+    height: 25vw;
+    width: 4vw;
+
+  }
+  100% {
+    height: 23vw;
+    width: 10vw;
+
+  }
+}
+
+
+
+
+.sunglasses {
+  position: absolute;
+  width: 13.3vw;
+  height: 5px;
+  top: 20%;
+  background: #231F20;
+  border-radius: 5px;
+}
+
+.sunglasses:before {
+  position: absolute;
+  content: "";
+  height: 4vw;
+  width: 6vw;
+  left: 5px;
+  border-radius: 0 0 50px 30px;
+  background: #231F20;
+}
+
+.sunglasses:after {
+  position: absolute;
+  content: "";
+  height: 4vw;
+  width: 6vw;
+  left: 7vw;
+  border-radius: 0 0 30px 50px;
+  background: #231F20;
+}
